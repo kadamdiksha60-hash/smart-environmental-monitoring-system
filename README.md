@@ -116,6 +116,13 @@ ThingSpeak channel graphs can be used to visualize temperature and humidity tren
 
 **Security:** Never publish your real ThingSpeak Write API Key in a public repository. Use a placeholder in the public source code and configure your actual key privately when running the project.
 
+## 🔗 Live Simulation
+
+Explore the project in the Wokwi online simulator:
+
+[Open Smart Environmental Monitoring System](https://wokwi.com/projects/478603464055254017)
+
+
 ## 🧪 Testing and Results
 
 The simulation was tested with different temperature and humidity readings.
