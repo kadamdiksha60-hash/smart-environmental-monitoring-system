@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "author": "Diksha Kadam",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -48, "left": -62.36, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -57.3,
+      "left": -207,
+      "attrs": { "temperature": "-3", "humidity": "45.5" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "dht1:VCC", "red", [ "h0" ] ],
+    [ "esp:15", "dht1:SDA", "green", [ "v-220.8", "h-115.2" ] ],
+    [ "dht1:GND", "esp:GND.2", "black", [ "v-76.8", "h201.6" ] ]
+  ],
+  "dependencies": {}
+}
