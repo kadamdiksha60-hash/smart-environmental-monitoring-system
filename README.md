@@ -58,7 +58,9 @@ The project uses an ESP32 development board and a DHT22 sensor.
 The circuit configuration is available in [`diagram.json`](diagram.json).
 
 **Note:** The circuit is simulated in Wokwi. Physical hardware has not been claimed as tested.
+### Circuit Diagram
 
+![ESP32 and DHT22 Circuit](images/circuit-diagram.png)
 ## ⚙️ Working Principle
 
 1. The ESP32 initializes the DHT22 sensor.
