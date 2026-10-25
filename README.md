@@ -61,6 +61,24 @@ The circuit configuration is available in [`diagram.json`](diagram.json).
 ### Circuit Diagram
 
 ![ESP32 and DHT22 Circuit](images/circuit-diagram.png)
+## 📊 Simulation Results
+
+The project was tested under three simulated environmental conditions.
+
+### 1. High Temperature Alert
+When the temperature exceeds the configured threshold, the system displays a high-temperature warning.
+
+![High Temperature Alert](images/high-temperature-alert.png)
+
+### 2. High Humidity Alert
+When humidity exceeds the configured threshold, the system displays a high-humidity warning.
+
+![High Humidity Alert](images/high-humidity-alert.png)
+
+### 3. Normal Environmental Conditions
+When temperature and humidity remain within the configured limits, the system reports a normal status.
+
+![Normal Condition](images/normal-condition.png)
 ## ⚙️ Working Principle
 
 1. The ESP32 initializes the DHT22 sensor.
