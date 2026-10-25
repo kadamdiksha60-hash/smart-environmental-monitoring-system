@@ -79,6 +79,17 @@ When humidity exceeds the configured threshold, the system displays a high-humid
 When temperature and humidity remain within the configured limits, the system reports a normal status.
 
 ![Normal Condition](images/normal-condition.png)
+
+## 📊 ThingSpeak Dashboard
+
+The ESP32 uploads temperature and humidity data to ThingSpeak
+for cloud-based monitoring and visualization.
+
+### Temperature and Humidity Monitoring
+![ThingSpeak Temperature and Humidity](images/thingspeak-temperature-humidity.png)
+
+### Combined Temperature and Humidity Chart
+![ThingSpeak Combined Chart](images/thingspeak-combined-chart.png)
 ## ⚙️ Working Principle
 
 1. The ESP32 initializes the DHT22 sensor.
